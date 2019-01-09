@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Simple TODO APP (JS)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-2 mb-2">
+            <h1>Simple Todo List App ES6 OOP without builder</h1>
+        </div>
+        <div class="row">
+            <h3>
+                Author: <a target="_blank" href="http://www.patrykbejcer.pl">patrykbejcer.pl</a>
+            </h3>
+        </div>
+        <div class="row mb-2">
+            <!-- Add new task -->
+            <div class="col-5 pl-0">
+                <div class="add-new-task w-100">
+                    <form class="w-100">
+                        <label>Add new task</label>
+                        <input class="task-input form-control" type="text">
+                        <button class="add-task-input btn btn-success mt-2 w-25">Add new</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-4">
+                <div class="search-task w-100">
+                    <label>Search task</label>
+                    <input class="form-control w-100" type="text">
+                </div>
+            </div>
+
+        </div>
+        <div class="row">
+            <ul class="task-list list-group mt-3 col-9">
+
+            </ul>
+        </div>
+    </div>
+    <script src="js/TasksCollection.js"></script>
+    <script src="js/Task.js"></script>
+    <script src="js/Todo.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
