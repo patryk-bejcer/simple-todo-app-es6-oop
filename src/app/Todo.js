@@ -3,7 +3,10 @@
     Website: www.patrykbejcer.pl
 */
 
-class Todo {
+import Task from './Task'
+import TasksCollection from './TasksCollection'
+
+export default class Todo {
     constructor() {
 
         //create html fields relation
@@ -63,7 +66,7 @@ class Todo {
         this.tasks.tasks.forEach((task, index) => this.createNewLiTodoElementHTML(task, index))
     }
 
-    //search task in tasks array 
+    //search task in tasks array
     searchTask(e) {
         let searchText = e.target.value;
         const searchTasks = this.tasks.tasks.filter(task => task.name.toLowerCase().includes(searchText));

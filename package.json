@@ -1,0 +1,33 @@
+{
+  "name": "simple-todo-app-es6-oop",
+  "version": "1.0.0",
+  "description": "simple todo app based on javascript es6 oop",
+  "main": "src/app/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --history-api-fallback --inline --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patryk-bejcer/simple-todo-app-es6-oop.git"
+  },
+  "keywords": [
+    "todo",
+    "opp",
+    "es6"
+  ],
+  "author": "patryk-bejcer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patryk-bejcer/simple-todo-app-es6-oop/issues"
+  },
+  "homepage": "https://github.com/patryk-bejcer/simple-todo-app-es6-oop#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.28.4",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "webpack-cli": "^3.2.1"
+  }
+}
