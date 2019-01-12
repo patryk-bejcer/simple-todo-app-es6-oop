@@ -1,0 +1,15 @@
+//src/style/app.scss
+$primary-color: #2e878a;
+$secondary-color: purple;
+body {
+  color: $primary-color;
+  h3{
+    a{
+      color: $secondary-color;
+    }
+  }
+  .btn-success{
+    background: $secondary-color;
+  }
+}
+

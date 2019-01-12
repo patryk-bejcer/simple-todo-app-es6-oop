@@ -3,6 +3,7 @@
     Website: www.patrykbejcer.pl
 */
 
+import '../style/app.scss';
 import Todo from './Todo'
 
 const initTodoApp = () => {
