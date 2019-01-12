@@ -1,12 +1,12 @@
 # simple-todo-app-es6-oop
-Simple todo app based on js (ES6) 
+### Simple todo app based on js (ES6) 
 
 <b>LIVE DEMO:</b> http://patrykbejcer.pl/app/todo/
 
-HOW SERVE?
+<b>HOW SERVE?</b>
 npm run start
 and go to
 http://localhost:7700
 
-HOW BUILD:
+<b>HOW BUILD:</b>
 npm run build
