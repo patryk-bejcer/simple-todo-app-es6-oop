@@ -7,10 +7,13 @@
 
 STEP 1:
 git clone https://github.com/patryk-bejcer/simple-todo-app-es6-oop/
+
 STEP 2: 
 go to directory cd/<directory>
+  
 STEP 3:
 run command "npm install"
+
 STEP 4: 
 run npm run start or npm run build
   
