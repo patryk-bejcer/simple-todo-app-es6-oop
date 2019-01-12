@@ -2,7 +2,6 @@
 ### Simple todo app based on js (ES6) 
 
 <b>LIVE DEMO:</b> http://patrykbejcer.pl/app/todo/
-
 #### How to run?
 
 STEP 1:
